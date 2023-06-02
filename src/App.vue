@@ -40,13 +40,20 @@
 <style lang="scss">
 @import "../node_modules/bulma";
 </style>
-<script>
-export default {
-  data() {
-    return {
-      showMobileMenu: false,
-    }
-  }
 
-}
+<script setup>
+import {ref} from "vue";
+
+const showMobileMenu = ref(false)
 </script>
+
+<!--<script>-->
+<!--export default {-->
+<!--  data() {-->
+<!--    return {-->
+<!--      showMobileMenu: false,-->
+<!--    }-->
+<!--  }-->
+
+<!--}-->
+<!--</script>-->
